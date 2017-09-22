@@ -3,12 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const styles = {
     navStyle: {
-      top: 0,
       display: "flex",
       width: "100%",
-      justifyContent: "space-around",
-      paddingTop: 55,
-      marginBottom: 50,
+      paddingTop: 10,
       backgroundColor: "black"
     },
     listStyle: {},
@@ -16,7 +13,8 @@ const styles = {
       textDecoration: "none",
       color: "grey",
       fontWeight: "bold",
-      padding: 5
+      padding: 20,
+      fontSize: 20
     },
     activeStyle: {
       backgroundColor: "black",

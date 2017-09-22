@@ -8,7 +8,7 @@ export default class BaseLayout extends Component {
         <div>
           <Header />
           {this.props.children}
-          <footer>Footer</footer>
+          <footer>Blog 2017</footer>
         </div>
       </div>
     );

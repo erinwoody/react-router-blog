@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./styles/App.css";
+import "../styles/App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import BaseLayout from './components/BaseLayout';
-import CreatePost from './components/CreatePost';
-import PostList from './components/PostList';
-import ShowPost from './components/ShowPost';
-import Home from './components/Home';
-import Header from './components/Header';
+import BaseLayout from './BaseLayout';
+import CreatePost from './CreatePost';
+import PostList from './PostList';
+import ShowPost from './ShowPost';
+import Home from './Home';
+
 
 class App extends Component {
   render() {
