@@ -43,16 +43,16 @@ export default class CreatPost extends Component {
   };
 
   render() {
-    let { authorsName, blogTitle, blogEntry } = this.state;
+    let { authorName, blogTitle, blogEntry } = this.state;
     return (
       <div>
         <h1>New Blog Post</h1>  
         <form className="blogEntryForm" onSubmit={this.createPost}>
           <div> <p>Author's Name</p>
             <input className= "blogInput"
-              name="authorsName"
+              name="authorName"
               type="text"
-              value={authorsName}
+              value={authorName}
               placeholder="Enter your name or email address"
               onChange={this.handleInputChange}
             />{" "}

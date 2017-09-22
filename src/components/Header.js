@@ -42,11 +42,11 @@ export default class Header extends Component {
           Create Post
         </NavLink>
         <NavLink
-          to="/showpost"
+          to="/posts"
           style={styles.linkStyle}
           activeStyle={styles.activeStyle}
         >
-          Show All Posts
+          Post List
         </NavLink>
     </nav>    
     )

@@ -15,8 +15,8 @@ class App extends Component {
         <BaseLayout>
           <Switch>
             <Route path="/createpost" component={CreatePost} />
-            <Route path="/postlist" component={PostList} />
-            <Route path="/showpost" component={ShowPost} />
+            <Route path="/posts/:id" component={ShowPost} />
+            <Route path="/posts" component={PostList} />
             <Route exact path="/" component={Home} />
           </Switch>
         </BaseLayout>
